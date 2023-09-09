@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2><br><br>
+
+    <form action="/thanks.html" method="GET" autocomplete="on" id="Form1" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <br>
+        <div>
+            <label for="fname">Name: </label>
+            <input type="text" placeholder="First + Middle + Last" name="name" id="fname" required>
+        </div><br><br>
+
+        <div>
+            <label for="email">Valid Email: </label>
+            <input type="email" id="email" placeholder="abc@gmail.com" name="Email">
+        </div><br><br>
+
+        <div>
+            <label for="Pass">Password</label>
+            <input type="password" placeholder="Valid Password" name="pass1" id="Pass">
+        </div><br><br>
+        <div>
+            Upload Docs: <input type="file">
+        </div><br><br>
+
+        <div>
+            <input type="submit" value="Register">
+        </div>
+        <br>
+        </fieldset>
+    </form>
+</body>
+</html>
