@@ -23,17 +23,88 @@
         </div><br><br>
 
         <div>
-            <label for="Pass">Password</label>
+            <label for="Pass">Password: </label>
             <input type="password" placeholder="Valid Password" name="pass1" id="Pass">
         </div><br><br>
         <div>
             Upload Docs: <input type="file">
         </div><br><br>
 
-        <div>
-            <input type="submit" value="Register">
-        </div>
         <br>
+    </fieldset>
+    
+    <br><br>
+    <fieldset>
+            <legend>Other Information</legend>
+            <br>
+            <div>
+                <label for="">Gender: </label>
+                <input type="radio" name="gender" value="M" id="gender1">
+                <label for="gender1">Male</label>
+                <input type="radio" name="gender" value="F" id="gender2">
+                <label for="gender2">Female</label>
+                <input type="radio" name="gender" value="O" id="gender3">
+                <label for="gender3">Other</label>
+            </div><br><br>
+
+            <div>
+                <label for="">Hobby: </label>
+
+                <input type="checkbox" name="hobby" value="Cricket" id="h1">
+                <label for="h1">Cricket</label>
+                <input type="checkbox" name="hobby" value="Cooking" id="h2">
+                <label for="h2">Cooking</label>
+                <input type="checkbox" name="hobby" value="Cooking" id="h2">
+                <label for="h2">Cooking</label>
+                <input type="checkbox" name="hobby" value="Cooking" id="h2">
+                <label for="h2">Cooking</label>
+            </div> <br><br>
+
+
+            <div>
+                <input type="button" value="Click Me">
+                
+            </div><br><br>
+
+            <div>
+                <label for="comment">Enter Feedback: </label>
+                <textarea name="comment" id="comment" cols="20" rows="7"></textarea>
+            </div>
+
+            <br><br>
+            <div>
+                <input type="color">
+                <input type="datetime-local">
+                <input type="month">
+                <input type="week">
+            </div>
+
+
+            <br><br>
+            <div>
+                <input type="hidden" value="Success" name="status">
+            </div><br><br>
+
+            <div>
+                <label for="con">Country: </label>
+                <select name="Country" id="con">
+                    <option value="Bharat">India</option>
+                </select>
+            </div><br><br>
+
+            <div>
+                <input type="number" min="18" max="30" step="2">
+
+                <input type="tel">
+                <input type="range">
+                <input type="search">
+                <input type="url">
+            </div>
+            <div>
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear Form">
+            </div>
+            
         </fieldset>
     </form>
 </body>
